@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html dir="rtl">
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title> المركز الاعلامي</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel="stylesheet" type="text/css" href="css/bootstrapRTL.css"/>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet">
+  <link rel='stylesheet' type='text/css' media='screen' href='font/all.min.css'>
+  <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+  <link rel='stylesheet' type='text/css' media='screen' href='css/electronic.css'>
+  <link rel='stylesheet' type='text/css' media='screen' href='css/responsive.css'>
+  
+  
+</head>
+
+<body>
+    <header>
+      <div class="head electronic-nav-edit">
+
+        <div class="firsto">
+          <!-- <a class="primary-btn" href="#section2" onclick="openNav()">اضغط هنا </a> -->
+          <div id="mySidenavAll" class="sidenav-all">
+            <div class="upper">
+              <div class="first">
+                <i class="fas fa-search"></i>
+                <input type="text" placeholder="بحث" />
+              </div>
+              <div class="second">
+                <a href="javascript:void(0)" class="xButton" onclick="closeNav()"
+                  >&times;</a
+                >
+              </div>
+            </div>
+            <div class="middle">
+              <div class="div-1">
+                <i class="fa-solid fa-arrow-left"></i>
+                <a class="mini-nav-link" href="index.html">الرئيسية</a>
+              </div>
+              <div class="div-2">
+                <a class="mini-nav-link" href="About.html">عن الوزارة</a>
+              </div>
+              <div class="div-3">
+                <a class="mini-nav-link" href="electronic-services.html"
+                  >الخدمات الإلكترونية</a
+                >
+                <!--  <i class="fa-solid fa-angle-down"></i>  -->
+              </div>
+              <div class="div-4">
+                <a class="mini-nav-link" href="#">تطبيقات</a>
+                <!--  <i class="fa-solid fa-angle-down"></i>  -->
+              </div>
+              <div class="div-5">
+                <a class="mini-nav-link" href="hajj_grand.html">مصادر</a>
+                <!--  <i class="fa-solid fa-angle-down"></i>  -->
+              </div>
+              <div class="div-6">
+                <a class="mini-nav-link" href="mediacenter.html"
+                  >المركز الإعلامي</a
+                >
+                <!--  <i class="fa-solid fa-angle-down"></i>  -->
+              </div>
+              <div class="div-7">
+                <a class="mini-nav-link" href="Contact.html">تواصل معنا</a>
+                <!--  <i class="fa-solid fa-angle-down"></i>  -->
+              </div>
+              <div class="div-8">
+                <a class="mini-nav-link" href="About.html">الشكاوى والإقتراحات</a>
+              </div>
+            </div>
+            <div class="lower">
+              <div class="div-lang">
+                <i class="fa-solid fa-globe"></i>
+                <p>اللغة</p>
+                <!--  <i class="fa-solid fa-angle-down"></i>  -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="container-textd">
+          <nav
+          style="z-index: 99999"
+          class="navbar navbar-expand-lg navbar-dark bg-light"
+        >
+          <a class="navbar-brand" href="index.html"
+            ><img width="200" class="logo" src="image/logo.png"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            onclick="openNav()"
+          >
+            <!-- data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" -->
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">الرئيسية</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="About.html">عن الوزارة</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="electronic-services.html">
+                  الخدمات الإلكترونية
+                  <!--<img
+                    src="./image/Vector-lower-arrow-navbar-edit.png"
+                    alt="Down arrow"
+                    srcset=""
+                    class="down-arrow"
+                />--></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"
+                  >تطبيقات
+                  <!--<img
+                    src="./image/Vector-lower-arrow-navbar-edit.png"
+                    alt="Down arrow"
+                    srcset=""
+                    class="down-arrow"
+                />--></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="hajj_grand.html"
+                  >مصادر<!--<img
+                    src="./image/Vector-lower-arrow-navbar-edit.png"
+                    alt="Down arrow"
+                    srcset=""
+                    class="down-arrow"
+                />--></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="mediacenter.html"
+                  >المركز الإعلامي<!--<img
+                    src="./image/Vector-lower-arrow-navbar-edit.png"
+                    alt="Down arrow"
+                    srcset=""
+                    class="down-arrow"
+                />--></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Contact.html">تواصل معنا</a>
+              </li>
+              <div class="navbar-icons" href="#">
+                <img
+                  src="./image/Vector-eye-navbar-edit.png"
+                  alt="Eye icon"
+                  srcset=""
+                />
+                <img
+                  src="./image/Vector-global-navbar-edit.png"
+                  alt="Global icon"
+                  srcset=""
+                />
+                <img
+                  src="./image/Vector-search-navbar-edit.png"
+                  alt="Search icon"
+                  srcset=""
+                />
+              </div>
+            </ul>
+          </div>
+        </nav>
+    
+        </div>
+      </div>
+    
+    </header>
+    <!-- start section  breadcrumb-->
+    <section>
+    <div class="bg-mediacenter">
+        <div class="container-textd">
+<div class="media_breadcrumb">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="index.html"> <i class="fa fa-home"></i> الرئيسية</a></li>
+              <li class="breadcrumb-item active" aria-current="page"> الخدمات الإلكترونية</li>
+            </ol>
+            <label class="title_breadcrumb">
+                الخدمات الإلكترونية
+              </label>
+          </nav>
+        </div>
+          
+    </div>
+        </div>
+    </section>
+    <section class="pos_top">
+        <div class="container-textd">
+        <div class="list_view">
+           <label class="view_name">تصنيف الخدمات</label>
+           <select class="style_select servies">
+            <option selected>الكل</option>
+            <option  value="1">الكل</option>
+            <option  value="2">الكل</option>
+            <option  value="3">الكل</option>
+    
+    </select>
+           
+        </div>
+        <div class="line_border"></div>
+    </div>
+    </section>
+    <!-- end section  breadcrumb-->
+    <section>
+    <div class="container-textd">
+        <div class="row">
+            <div class="col-xl-3 col-md-3 col-sm-6 col-6">
+                <div class="card">
+                    <img src="E-Services Icons/1.png" class="ser_image" alt="imge media center">
+                    <div class="card-body">
+                         <h1 class="ser_title">الاستعلام عن شركات حجاج الداخل المرخصة</h1>
+                      <p class="sertext text-center">
+                        تتيح هذه الخدمة للمستفيد إمكانية البحث عن شركات ومؤسسات حج محدده واستعراض معلوماتها وتفاصيل الخدمات المقدمه من قبلها     
+                                       </p>
+                       
+                    </div>
+                    <button class="btn ser-btn" href="#">الدخول للخدمة </button>
+                  </div>
+
+            </div> <!-- end card 1-->
+            <div class="col-xl-3 col-md-3 col-sm-6 col-6">
+                <div class="card">
+                    <img src="E-Services Icons/2.png" class="ser_image" alt="imge media center">
+                    <div class="card-body">
+                         <h1 class="ser_title">
+                            حجز واستخراج تصريح حج للمواطنين والمقيمين   
+                                             </h1>
+                      <p class="sertext text-center">
+                        تتيح هذه الخدمة للمستفيد إستعراض برامج الخدمات لحجاج الداخل واختيار البرنامج المناسب ومنشاة الحج التي يرغب التعاقد معها           
+                    </p>
+                    </div>
+                    <button class="btn ser-btn" href="#">الدخول للخدمة </button>
+                  </div>
+
+            </div> <!-- end card 2-->
+            <div class="col-xl-3 col-md-3 col-sm-6 col-6">
+                <div class="card">
+                    <img src="E-Services Icons/3.png" class="ser_image" alt="imge media center">
+                    <div class="card-body">
+                         <h1 class="ser_title">
+                            الاستعلام عن حالة الحجز لتصريح الحج     
+                                                                </h1>
+                      <p class="sertext text-center">
+                        تتيح هذه الخدمة للمستفيد الإستعلام عن تفاصيل حجز برنامج حج داخلي      
+                        </p>                 
+                    </div>
+                    <button class="btn ser-btn" href="#">الدخول للخدمة </button>
+                  </div>
+
+            </div> <!-- end card 3-->
+            <div class="col-xl-3 col-md-3 col-sm-6 col-6">
+                <div class="card">
+                    <img src="E-Services Icons/4.png" class="ser_image" alt="imge media center">
+                    <div class="card-body">
+                         <h1 class="ser_title">
+                            الاستعلام عن حالة الحجز لتصريح الحج     
+                                                                </h1>
+                      <p class="sertext text-center">
+                        تتيح هذه الخدمة للمستفيد إلغاء حجز برنامج حج داخلي            
+                    </p>        </div>
+                    <button class="btn ser-btn" href="#">الدخول للخدمة </button>
+                  </div>
+
+            </div> <!-- end card 4-->
+        </div> <!-- end row 1 -->
+        <div class="row">
+            <div class="col-xl-3 col-md-3 col-sm-6 col-6">
+                <div class="card">
+                    <img src="E-Services Icons/5.png" class="ser_image" alt="imge media center">
+                    <div class="card-body">
+                         <h1 class="ser_title">
+                         استرجاع مبلغ حجز موسم مسبق
+                         </h1>
+                      <p class="sertext text-center">
+                        تتيح هذه الخدمة للمستفيد إسترجاع مبالغ الحجوزات لمواسم الحج الماضية   
+                        </p>                    
+                    </div>
+                    <button class="btn ser-btn" href="#">الدخول للخدمة </button>
+                  </div>
+
+            </div> <!-- end card 5-->
+            <div class="col-xl-3 col-md-3 col-sm-6 col-6">
+                <div class="card">
+                    <img src="E-Services Icons/6.png" class="ser_image" alt="imge media center">
+                    <div class="card-body">
+                         <h1 class="ser_title">
+                            استعلام عن شركات العمرة المرخصة    
+                                                                 </h1>
+                      <p class="sertext text-center">
+                        خدمة إلكترونية تقدمها وزارة الحج والعمرة عبر بوابة (مقام) تمكن المستفيد من الاستعلام عن شركات العمرة المرخصة من وزارة الحج والعمرة
+                        </p>
+                    </div>
+                        <button class="btn ser-btn" href="#">الدخول للخدمة </button>
+                  
+             </div>
+            </div> <!-- end card 6-->
+            <div class="col-xl-3 col-md-3 col-sm-6 col-6">
+                <div class="card">
+                    <img src="E-Services Icons/7.png" class="ser_image" alt="imge media center">
+                    <div class="card-body">
+                         <h1 class="ser_title">
+                            استعلام عن تأشيرة عمرة                                                                </h1>
+                      <p class="sertext text-center">
+                        خدمة إلكترونية تقدمها وزارة الحج والعمرة تمكن المستفيد من الاستعلام عن حالة طلبه لتأشيرة العمرة                        </p>                    
+                    </div>
+                    <button class="btn ser-btn" href="#">الدخول للخدمة </button>
+                  </div>
+
+            </div> <!-- end card 7-->
+            <div class="col-xl-3 col-md-3 col-sm-6 col-6">
+                <div class="card">
+                    <img src="E-Services Icons/8.png" class="ser_image" alt="imge media center">
+                    <div class="card-body">
+                         <h1 class="ser_title">
+                            اعتماد عقود النقل لحجاج الخارج    
+                                                                   
+                        </h1>
+                      <p class="sertext text-center">
+                        تمكن هذه الخدمة المستفيد من التقديم على إعتماد عقد نقل      
+                        </p>              
+                    </div>
+                    <button class="btn ser-btn" href="#">الدخول للخدمة </button>
+                  </div>
+
+            </div> <!-- end card 8-->
+        </div> <!-- end row 2 -->
+        <div class="row">
+            <div class="col-xl-3 col-md-3 col-sm-6 col-6">
+                <div class="card">
+                    <img src="E-Services Icons/9.png" class="ser_image" alt="imge media center">
+                    <div class="card-body">
+                         <h1 class="ser_title">
+                            اعتماد عقود السكن لحجاج الخارج        
+                                         </h1>
+                      <p class="sertext text-center">
+                        تمكن هذه الخدمة المستفيد من التقديم على اعتماد عقد سكن             
+                               </p>                    
+                    </div>
+                    <button class="btn ser-btn" href="#">الدخول للخدمة </button>
+                  </div>
+
+            </div> <!-- end card 9-->
+            <div class="col-xl-3 col-md-3 col-sm-6 col-6">
+                <div class="card">
+                    <img src="E-Services Icons/10.png" class="ser_image" alt="imge media center">
+                    <div class="card-body">
+                         <h1 class="ser_title">
+                            اعتماد عقود الإعاشة لحجاج الاخارج            
+                                                                             </h1>
+                      <p class="sertext text-center">
+                        تمكن هذه الخدمة المستفيد من التقديم على اعتماد عقد إعاشة      
+                                      </p>
+                    </div>
+                        <button class="btn ser-btn" href="#">الدخول للخدمة </button>
+                  
+             </div>
+            </div> <!-- end card 10-->
+            <div class="col-xl-3 col-md-3 col-sm-6 col-6">
+                <div class="card">
+                    <img src="E-Services Icons/11.png" class="ser_image" alt="imge media center">
+                    <div class="card-body">
+                         <h1 class="ser_title">
+                            تقديم معاملة جديدة      
+                                                                                   </h1>
+                      <p class="sertext text-center">
+                        إتاحة تقديم طلب تسجيل خطاب إلى مكتب معالي وزير الحج والعمرة أو إحدى الإدارات أو اللجان التابعة للوزارة بنموذج إلكتروني دون الحاجة للحضور لمقرات الوزارة
+
+                    </div>
+                    <button class="btn ser-btn" href="#">الدخول للخدمة </button>
+                  </div>
+
+            </div> <!-- end card 11-->
+            <div class="col-xl-3 col-md-3 col-sm-6 col-6">
+                <div class="card">
+                    <img src="E-Services Icons/12.png" class="ser_image" alt="imge media center">
+                    <div class="card-body">
+                         <h1 class="ser_title">
+                            الاستعلام عن معاملة                                                                   
+                        </h1>
+                      <p class="sertext text-center">
+                        إتاحة الاستعلام عن حالة المعاملات المقيدة في سجلات وزارة الحج والعمرة (نظام راسل) من خلال رقم المعاملة ورقم جوال مقدم المعاملة                        </p>              
+                    </div>
+                    <button class="btn ser-btn" href="#">الدخول للخدمة </button>
+                  </div>
+
+            </div> <!-- end card 12-->
+        </div> <!-- end row 3 -->
+        
+    </div> <!-- end big container -->
+
+   </section> 
+   <!-- end section row card -->
+   <div class="container-textd">
+    <div class="border_linebox">
+        <div class="row">
+           
+            <div class="col-md-4 col-xs-12">
+                <h3 class="title_linebox">هل استفدت من المعلومات المقدمة في هذه الصفحة؟
+            </div>
+            <div class="col-md-8 col-xs-12">
+                <div class="btNflex">
+                    <button href="#" class="btn btn_color">
+                        نعم، استفدت
+                    </button>
+                    <button href="#" class="btn btn solid">
+                       لا، لم أستفد
+                    </button>
+                </div>
+            </div>
+    </div>
+        </div>
+       
+    
+        </h3>
+    </div>
+    </section>
+    <!-- end submit btn -->
+    
+       <!-- Wide Footer -->
+
+  <footer id="liner" class="index-footer1 dark-wide-footer">
+    <div class="container-text">
+      <div class="row">
+        <div class="col-md-6 col-sm-12 col-xs-12 col-12 right-footer">
+          <ul class="ul-footer">
+            <li class="list">
+              <a class="links_a"> تواصل معنا </a>
+            </li>
+            <li class="list">
+              <a class="links_a">سياسة الخصوصية </a>
+            </li>
+            <li class="list">
+              <a class="links_a"> تعريف ملفات الارتباط </a>
+            </li>
+            <li class="list">
+              <a class="links_a"> الأحكام والشروط </a>
+            </li>
+            <li class="list">
+              <a class="links_a"> خريطة الموقع </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-6 col-sm-12 col-xs-12 left-footer">
+          <div class="left-footer-1">
+            <ul class="ul-footer L-left">
+              <li><a class="links_aicon" href="#"> اتصل بنا: </a></li>
+              <li>
+                <a class="links_aicon"
+                  ><i class="fa-brands fa-facebook-f"></i
+                ></a>
+              </li>
+              <li>
+                <a class="links_aicon">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a
+                  class="links_aicon"
+                  target="_blank"
+                  href="https://twitter.com/HajMinistry"
+                >
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a
+                  class="links_aicon"
+                  target="_blank"
+                  href="https://youtube.com/channel/UCCm8-SFjGg7Fb13CQT1GFOg"
+                >
+                  <i class="fa-brands fa-youtube"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="left-footer-2">
+            <p class="footer-text">
+              حقوق النشر © 2022 جميع الحقوق محفوظة. وزارة الحج والعمرة
+            </p>
+            <li class="go-up">
+              <a class="links_aicon" href="#">
+                <label>العودة لأعلى</label>
+                <i class="fa-solid fa-circle-up"></i
+              ></a>
+            </li>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Min Footer -->
+
+  <footer class="section index-footer2">
+    <div class="container-text">
+      <div class="row">
+        <div class="col-md-6 col-sm-12 col-xs-12 col-12 right-footer">
+          <ul class="ul-footer">
+            <li class="list">
+              <a class="links_a"> تواصل معنا </a>
+            </li>
+            <li class="list">
+              <a class="links_a">سياسة الخصوصية </a>
+            </li>
+            <li class="list">
+              <a class="links_a"> تعريف ملفات الارتباط </a>
+            </li>
+            <li class="list">
+              <a class="links_a"> الأحكام والشروط </a>
+            </li>
+            <li class="list">
+              <a class="links_a"> خريطة الموقع </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-6 col-sm-12 col-xs-12 left-footer">
+          <div class="left-footer-1">
+            <li><a class="contact-us-label" href="#"> اتصل بنا: </a></li>
+
+            <ul class="ul-footer L-left">
+              <li>
+                <a class="links_aicon"
+                  ><i class="fa-brands fa-facebook-f"></i
+                ></a>
+              </li>
+              <li>
+                <a class="links_aicon">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a class="links_aicon" target="_blank" href="https://twitter.com/HajMinistry">
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a
+                  class="links_aicon"
+                  target="_blank"
+                  href="https://youtube.com/channel/UCCm8-SFjGg7Fb13CQT1GFOg"
+                >
+                  <i class="fa-brands fa-youtube"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="left-footer-2">
+            <p class="footer-text">
+              حقوق النشر © 2022 جميع الحقوق محفوظة. وزارة الحج والعمرة
+            </p>
+            <li class="go-up">
+              <a class="links_aicon" href="#">
+                <label>العودة لأعلى</label>
+                <i class="fa-solid fa-circle-up"></i
+              ></a>
+            </li>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+      <script src='js/jquery-3.6.0.min.js'></script>
+  <script src="js/jquery-slim.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="font/all.min.js"></script>
+ <script src="js/jquery-migrat.js"></script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+  <script>
+    function openNav() {
+      document.getElementById("mySidenavAll").style.width = "100%";
+      document.getElementById("mySidenavAll").style.padding = "3rem 2.5rem";
+  
+      function appear() {
+        $("#mySidenavAll").children().css("visibility", "visible");
+      }
+  
+      const myTime = setTimeout(appear, 300);
+    }
+    function closeNav() {
+      $("#mySidenavAll").children().css("visibility", "hidden");
+  
+      function disAppear() {
+        document.getElementById("mySidenavAll").style.width = "0";
+        document.getElementById("mySidenavAll").style.padding = "0";
+      }
+  
+      const myTimeDis = setTimeout(disAppear, 250);
+    }
+  </script>
+
+</body>
+</html>
