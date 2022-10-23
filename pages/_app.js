@@ -7,6 +7,7 @@ import "../styles/inner/newStyle1.css";
 import "../styles/inner/newDocumentDetails1.css";
 import "../styles/inner/newDocumentLibrary1.css";
 import "../styles/inner/newServices1.css";
+import "../styles/inner/newOpenResources1.css";
 import { useEffect } from "react";
 
 function MyApp({ Component, pageProps }) {

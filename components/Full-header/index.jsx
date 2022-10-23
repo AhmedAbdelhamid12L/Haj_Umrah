@@ -20,16 +20,24 @@ export default function FullHeader() {
   useEffect(() => {
     if (pathName.includes("library")) {
       setnameOfTheRoute(header_info.library);
-    } else if (pathName.includes("about")){
+    } else if (pathName.includes("about")) {
       setnameOfTheRoute(header_info.newsPage);
-    } else if (pathName.includes("services")){
+    } else if (pathName.includes("services")) {
       setnameOfTheRoute(header_info.services);
-    }else if (pathName.includes("librarydetails")){
+    } else if (pathName.includes("librarydetails")) {
       setnameOfTheRoute(header_info.libraryDetails);
+    } else if (pathName.includes("openresources")) {
+      setnameOfTheRoute(header_info.openResources);
+    } else if (pathName.includes("servicesdetails")) {
+      setnameOfTheRoute(header_info.servicesdetails);
+    }  else if (pathName.includes("contactus")) {
+      setnameOfTheRoute(header_info.contactus);
+    } else if (pathName.includes("newsdetails")) {
+      setnameOfTheRoute(header_info.newsdetails);
+    } else if (pathName.includes("news")) {
+      setnameOfTheRoute(header_info.news);
     }
   }, [pathName]);
-
-
 
   return (
     <Fragment>
@@ -46,19 +54,18 @@ export default function FullHeader() {
                         <li className="breadcrumb-item">
                           <a className="a_bracd" href="index.html">
                             <i className="fa fa-home"></i>{" "}
-                           {nameOfTheRoute.titleOne}
-                            
+                            {nameOfTheRoute.titleOne}
                           </a>
                         </li>
                         <li
                           className="breadcrumb-item active about-us-title-2"
                           aria-current="page"
                         >
-                             {nameOfTheRoute.titleTwo}
+                          {nameOfTheRoute.titleTwo}
                         </li>
                       </ol>
                       <label className="title_breadcrumb">
-                      {nameOfTheRoute.titleThree}
+                        {nameOfTheRoute.titleThree}
                       </label>
                     </div>
                     <div className="left-side col-xs-12 col-md-6">

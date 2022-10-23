@@ -1,0 +1,303 @@
+/* NEW OPEN_RESOURCES 1 STYLE */
+
+/* Start media_breadcrumb */
+.newOpenResources1 .bg-mediacenterDD {
+  min-height: 26rem;
+  background-color: #242424;
+  width: 100%;
+  /* height: 350px; */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  border-radius: 0 0px 70px 70px;
+}
+
+.newOpenResources1 .bg-mediacenterDD .container {
+  width: 100%;
+}
+
+.newOpenResources1 .bg-mediacenterDD .media_breadcrumb {
+  align-items: center;
+  /* width: 100%; */
+  width: 92%;
+}
+
+.newOpenResources1 .bg-mediacenterDD .title_breadcrumb {
+  font-size: 25px;
+}
+
+.newOpenResources1 .bg-mediacenterDD .media_breadcrumb nav {
+  width: 100%;
+}
+
+.newOpenResources1 .bg-mediacenterDD .media_breadcrumb .row {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.newOpenResources1 .bg-mediacenterDD .media_breadcrumb .left-side {
+  align-items: center;
+
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-end;
+
+  /* background-color: green; */
+}
+
+.newOpenResources1 .bg-mediacenterDD .media_breadcrumb .left-side .items-cont {
+  margin: 0;
+  /* margin-right: 3rem; */
+  /* margin-bottom: 3rem; */
+
+  height: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: end;
+  /* margin: 0rem 5rem; */
+}
+
+.newOpenResources1 .bg-mediacenterDD .right-side a {
+  font-weight: 300;
+}
+
+.newOpenResources1 .bg-mediacenterDD .right-side li {
+  font-weight: 500;
+}
+
+.newOpenResources1 .bg-mediacenterDD .left-side .items-cont .item {
+  margin: 0rem 3px;
+  border: 1px solid white;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 6px;
+  min-height: 2.4rem;
+  min-width: 2.5rem;
+  cursor: pointer;
+  transition: all ease-in-out 0.1s;
+}
+
+.newOpenResources1 .bg-mediacenterDD .left-side .items-cont .item:hover {
+  background-color: #999;
+  transition: all ease-in-out 0.1s;
+}
+
+.newOpenResources1 .bg-mediacenterDD .title_breadcrumb {
+  font-size: 2.2rem;
+}
+/* End media_breadcrumb */
+/* Start Main Head */
+.newOpenResources1 .ser-btn {
+  background: #029155;
+  border: 1px solid #029155;
+  border-radius: 40px;
+  color: #fff;
+  padding: 0.5rem 2rem;
+}
+
+.newOpenResources1 .heading-main-sec {
+  color: #029055;
+  font-size: 1rem;
+}
+
+.newOpenResources1 .cardDoc {
+  padding: 1rem;
+}
+
+.newOpenResources1 .main-head-section {
+  position: relative;
+  top: -2.5rem;
+  padding: 0rem 2rem;
+  padding-bottom: 0;
+  z-index: 333;
+}
+
+.newOpenResources1 .inside-head {
+  background-color: white;
+  padding: 2rem 2.5rem;
+  border-radius: 1rem;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.newOpenResources1 .out-big-sec {
+  padding: 0rem 2rem;
+}
+
+.newOpenResources1 .big-sec {
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 0.1rem solid #dbdddf;
+}
+
+.newOpenResources1 .pre-big {
+  direction: rtl;
+  color: #242424;
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+
+.newOpenResources1 .inside-big {
+  overflow-y: scroll;
+  height: 25rem;
+}
+
+.newOpenResources1 .heading1-main-sec {
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  text-align: center;
+}
+
+.newOpenResources1 .heading2-main-sec {
+  text-align: right;
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  padding: 0.5rem;
+  color: #8e8e8e;
+  cursor: pointer;
+}
+
+.newOpenResources1 .heading3-main-sec {
+  text-align: right;
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  padding: 0.5rem;
+  color: #029155;
+  cursor: pointer;
+}
+
+.newOpenResources1 .heading4-main-sec {
+  text-align: right;
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  padding: 0.5rem;
+}
+
+.newOpenResources1 .heading5-main-sec {
+  text-align: right;
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  padding: 2.5rem 0.5rem 0rem 0.5rem;
+}
+
+.newOpenResources1 .heading5-w-img {
+  text-align: right;
+  font-weight: 700;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  line-height: 1.6rem;
+  padding: 1rem;
+}
+
+.newOpenResources1 .p-inside-big {
+  color: #8e8e8e;
+}
+
+.newOpenResources1 .heading1-big {
+  color: #242424;
+  font-weight: 700;
+  line-height: 35px;
+  font-size: 1.1rem;
+  padding: 0.5rem 0rem;
+}
+
+.newOpenResources1 .out-big-sec hr {
+  width: 90%;
+}
+
+.newOpenResources1 .inp-card {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+  padding-bottom: 1rem;
+}
+
+.newOpenResources1 .card {
+  margin-top: 32px;
+  background: #fdfeff;
+  box-shadow: 0px 4px 8px rgb(0 0 0 / 10%);
+  border-radius: 20px;
+  margin-bottom: 32px;
+  padding: 1rem;
+}
+
+.newOpenResources1 .card .imgCover {
+  display: flex;
+  justify-content: center;
+}
+
+.newOpenResources1 .card .ser_title {
+  font-family: "DIN Next LT Arabic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #242424;
+}
+
+.newOpenResources1 .card .sertext {
+  font-family: "DIN Next LT Arabic";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  color: #8e8e8e;
+  height: 5.5rem;
+  overflow: hidden;
+}
+
+.newOpenResources1 .sec6 span {
+  font-family: "DIN Next LT Arabic";
+  font-weight: 700;
+}
+
+.newOpenResources1 .p-sec4 {
+  font-family: "DIN Next LT Arabic";
+  height: 12rem;
+  overflow: auto;
+}
+
+.newOpenResources1 .heading6-w-img {
+  font-family: "DIN Next LT Arabic";
+  font-size: 1rem;
+  color: #029055;
+  cursor: pointer;
+  text-align: center;
+}
+
+.newOpenResources1 .lib-sec span {
+  color: #999;
+  font-weight: 600;
+}
+
+.newOpenResources1 .lib-sec .cardLib {
+  padding: .5rem;
+}
+
+.newOpenResources1 .lib-sec .incardLib {
+  padding: 1rem;
+  border: 0.1rem solid #dbdddf;
+  border-radius: 1.2rem;
+}
+
+.newOpenResources1 .lib-sec .h-libSec {
+ font-weight: 600;
+ font-size: 1rem;
+}
+
+/* End Main Head */
