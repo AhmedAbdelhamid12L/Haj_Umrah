@@ -18,24 +18,26 @@ export default function FullHeader() {
   let pathName = router.asPath.split("/")[1];
 
   useEffect(() => {
-    if (pathName.includes("library")) {
+    if (pathName.includes("librarydetails")) {
+      setnameOfTheRoute(header_info.libraryDetails);
+    } else if (pathName.includes("library")) {
       setnameOfTheRoute(header_info.library);
     } else if (pathName.includes("about")) {
       setnameOfTheRoute(header_info.newsPage);
-    } else if (pathName.includes("services")) {
-      setnameOfTheRoute(header_info.services);
-    } else if (pathName.includes("librarydetails")) {
-      setnameOfTheRoute(header_info.libraryDetails);
-    } else if (pathName.includes("openresources")) {
-      setnameOfTheRoute(header_info.openResources);
     } else if (pathName.includes("servicesdetails")) {
       setnameOfTheRoute(header_info.servicesdetails);
-    }  else if (pathName.includes("contactus")) {
+    } else if (pathName.includes("services")) {
+      setnameOfTheRoute(header_info.services);
+    } else if (pathName.includes("openresources")) {
+      setnameOfTheRoute(header_info.openResources);
+    } else if (pathName.includes("contactus")) {
       setnameOfTheRoute(header_info.contactus);
     } else if (pathName.includes("newsdetails")) {
       setnameOfTheRoute(header_info.newsdetails);
     } else if (pathName.includes("news")) {
       setnameOfTheRoute(header_info.news);
+    } else if (pathName.includes("awarness")) {
+      setnameOfTheRoute(header_info.awarness);
     }
   }, [pathName]);
 

@@ -36,7 +36,7 @@ export default function News() {
         />
       </Head>
 
-      <main dir="rtl" className="newNews1">
+      <main dir="rtl" className="newNews1" >
         <FullHeader />
         <section className="">
           <section className="category-sec">

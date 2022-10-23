@@ -5,22 +5,29 @@ const HEADER_INFO = {
     titleThree: "أخبار الوزارة",
   },
 
+  
+  libraryDetails: {
+    titleOne: "الرئيسية",
+    titleTwo: " اللائحة التنفيذية لنظام مقدمي خدمة حجاج الخارج",
+    titleThree: " اللائحة التنفيذية لنظام مقدمي خدمة حجاج الخارج",
+  },
+
   library: {
     titleOne: "الرئيسية",
     titleTwo: " مكتبة الوقائق",
     titleThree: "مكتبة الوقائق",
   },
 
+  servicesdetails: {
+    titleOne: "الرئيسية",
+    titleTwo: " الخدمات الإلكترونية  /  الاستعلام عن شركات حجاج الداخل المرخصة",
+    titleThree: "  الاستعلام عن شركات حجاج الداخل المرخصة",
+  },
+
   services: {
     titleOne: "الرئيسية",
     titleTwo: " الخدمات الإلكترونية",
     titleThree: " الخدمات الإلكترونية",
-  },
-
-  libraryDetails: {
-    titleOne: "الرئيسية",
-    titleTwo: " اللائحة التنفيذية لنظام مقدمي خدمة حجاج الخارج",
-    titleThree: " اللائحة التنفيذية لنظام مقدمي خدمة حجاج الخارج",
   },
 
   openResources: {
@@ -33,12 +40,8 @@ const HEADER_INFO = {
     titleTwo: " تواصل معنا      ",
     titleThree: " تواصل معنا      ",
   },
-  news: {
-    titleOne: "الرئيسية",
-    titleTwo: " المركز الإعلامي       ",
-    titleThree: "  أخبار الوزارة      ",
-  },
 
+  
   newsdetails: {
     titleOne: "الرئيسية",
     titleTwo: " العمرة أول محرم      ",
@@ -46,10 +49,16 @@ const HEADER_INFO = {
       "    العمرة أول محرم.. ننشر المستندات المطلوبة لاستخراج تأشيرة عمرة 1444 هجرية      ",
   },
 
-  servicesdetails: {
+  news: {
     titleOne: "الرئيسية",
-    titleTwo: " الخدمات الإلكترونية  /  الاستعلام عن شركات حجاج الداخل المرخصة",
-    titleThree: "  الاستعلام عن شركات حجاج الداخل المرخصة",
+    titleTwo: " المركز الإعلامي       ",
+    titleThree: "  أخبار الوزارة      ",
+  },
+
+  awarness: {
+    titleOne: "الرئيسية",
+    titleTwo: "الأدلة التوعوية",
+    titleThree: "الأدلة التوعوية",
   },
 };
 

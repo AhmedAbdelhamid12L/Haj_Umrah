@@ -39,7 +39,7 @@ export default function NewsDetails() {
         />
       </Head>
 
-      <main dir="rtl" className="newNewsDetails1">
+      <main dir="rtl" className="newNewsDetails1"  style={{overflowX:"hidden"}}>
         <FullHeader />
         <section className="">
           <section class="one">

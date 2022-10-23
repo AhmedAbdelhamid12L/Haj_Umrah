@@ -29,6 +29,12 @@ export default function OpenResources() {
         <meta name="keywords" content="" />
         <link rel="shortcut icon" id="favicon" href="favicon.png" />
         <link rel="icon" href="/favicon.ico" />
+
+        <link
+          rel="stylesheet"
+          type="text/css"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        />
       </Head>
 
       <main className="newOpenResources1" dir="rtl">

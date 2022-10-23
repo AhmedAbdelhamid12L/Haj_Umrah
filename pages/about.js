@@ -33,7 +33,7 @@ export default function About() {
         />
       </Head>
 
-      <main dir="rtl" className="newAbout1">
+      <main dir="rtl" className="newAbout1" style={{overflowX:"hidden"}}>
         <FullHeader />
         <section >
           {/*  */}
