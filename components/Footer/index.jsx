@@ -55,6 +55,7 @@ export default function Footer() {
                         className="links_aicon"
                         target="_blank"
                         href="https://twitter.com/HajMinistry"
+                        rel="noreferrer"
                       >
                         <i className="fa-brands fa-twitter"></i>
                       </a>
@@ -64,6 +65,7 @@ export default function Footer() {
                         className="links_aicon"
                         target="_blank"
                         href="https://youtube.com/channel/UCCm8-SFjGg7Fb13CQT1GFOg"
+                        rel="noreferrer"
                       >
                         <i className="fa-brands fa-youtube"></i>
                       </a>
@@ -135,6 +137,7 @@ export default function Footer() {
                         className="links_aicon"
                         target="_blank"
                         href="https://twitter.com/HajMinistry"
+                        rel="noreferrer"
                       >
                         <i className="fa-brands fa-twitter"></i>
                       </a>
@@ -144,6 +147,7 @@ export default function Footer() {
                         className="links_aicon"
                         target="_blank"
                         href="https://youtube.com/channel/UCCm8-SFjGg7Fb13CQT1GFOg"
+                        rel="noreferrer"
                       >
                         <i className="fa-brands fa-youtube"></i>
                       </a>
